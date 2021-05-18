@@ -3,3 +3,5 @@
 
 https://gatsby-starter-ghost.netlify.com/*      https://gatsby.ghost.org/:splat    301!
 http://gatsby-starter-ghost.netlify.com/*       https://gatsby.ghost.org/:splat    301!
+
+/blog/*  https://blog.shreddy.com/:splat  200
