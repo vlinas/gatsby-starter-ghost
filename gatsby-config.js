@@ -22,7 +22,7 @@ try {
     }
 }
 
-if (process.env.NODE_ENV === `production` && config.siteUrl === `http://blog.shreddy.com/` && !process.env.SITEURL) {
+if (process.env.NODE_ENV === `production` && config.siteUrl === `http://blog.shreddy.com` && !process.env.SITEURL) {
     throw new Error(`siteUrl can't be localhost and needs to be configured in siteConfig. Check the README.`) // eslint-disable-line
 }
 
